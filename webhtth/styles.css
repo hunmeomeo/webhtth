@@ -1,0 +1,279 @@
+.snowEffect {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 99;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+#snowcanvas {
+    position: fixed;
+    z-index: 0;
+}
+
+body {
+    font-family: tahoma;
+    background-color: #42a2f8;
+    font-size: 12px;
+}
+
+.container {
+    width: 1150px !important;
+}
+
+a {
+    color: #0577fe;
+}
+
+.blog-post {
+    padding: 10px;
+    margin-bottom: 0;
+    color: #110a03;
+    margin-top: -17px;
+}
+
+a:hover,
+a:focus {
+    color: #110a03 !important;
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+    height: auto !important;
+}
+
+.content {
+    background: #42a2f8;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4px;
+}
+
+.table {
+    margin-bottom: 2px;
+}
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.banner {
+    width: 100%;
+}
+
+.border-bottom {
+    background-image: url(images/bg-top-menu.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 24px;
+    margin-bottom: -25px;
+    margin-top: -5px;
+    z-index: 1;
+}
+
+.menu-table td {
+    background-size: 95%;
+    font-size: 10px;
+}
+
+@media (min-width: 992px) {
+    body {
+        max-width: 850px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .menu-table td {
+        background-size: contain;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 640px) {
+    .table {
+        margin-bottom: 0px;
+    }
+
+    .content {
+        padding-top: 0px;
+    }
+}
+
+@media (min-width: @screen-sm-min) {
+    .content {
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .banner-cover {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: @screen-md-min) {
+    .content {
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .banner-cover {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: @screen-lg-min) {
+    .content {
+        max-width: 100%;
+        padding: 50px;
+    }
+}
+
+    .banner-cover {
+        max-width: 100%;
+    }
+
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:hover,
+.nav-pills>li.active>a:focus {
+    background: #6548be;
+}
+
+.nav-pills>li>a {
+    color: #EF9300;
+}
+
+.alert {
+    margin-bottom: 5px;
+}
+
+.alert-success {
+    color: #fff;
+    background-color: #353535;
+    border-color: #403F3F;
+}
+
+.blog-post-title {
+    font-size: 20px;
+    color: #fe8c05;
+}
+
+iframe {
+    max-width: 100%;
+}
+
+.media-middle {
+    vertical-align: top;
+    padding-top: 4px;
+}
+
+.media img {
+    max-width: none !important;
+}
+
+.badge {
+    background-color: #62583C;
+    border-color: #62583C;
+}
+
+.menu-table td {
+    background-repeat: no-repeat;
+    height: 26px;
+    line-height: 26px !important;
+    padding: 5px !important;
+}
+
+.menu-table td a {
+    color: #fff;
+}
+
+.menu-table>thead>tr>th,
+.menu-table>tbody>tr>th,
+.menu-table>tfoot>tr>th,
+.menu-table>thead>tr>td,
+.menu-table>tbody>tr>td,
+.menu-table>tfoot>tr>td {
+    border: none;
+}
+
+hr {
+    border-color: #d8ba89 !important;
+    margin: 0;
+}
+
+.media {
+    margin-top: 5px;
+}
+
+.rmenu {
+}
+
+.sb-body {
+    background: url(images/mid-menu-sb.png) repeat-y;
+    width: 100%;
+    background-size: contain;
+    padding: 0 10px;
+}
+
+.title-sb {
+    width: 90%;
+    text-align: center;
+    color: red;
+    background: #d8ba89;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    border: rgb(0, 102, 0);
+}
+
+td {
+    border-color: #d8ba89 !important;
+}
+
+.table-bordered {
+    border-radius: 25px;
+    border: 3px solid #F8E7C2 !important;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bgcontent {
+    border: 5px solid transparent;
+    padding: 10px;
+    background-color: #f7e7c6;
+    background-clip: padding-box;
+    background-image: url(images/bg-content-top.jpg), url(images/bg-content-bot.jpg);
+    background-position: right top, left bottom;
+    background-repeat: no-repeat;
+}
+
+.row {
+    margin-left: 0;
+}
+
+#truyna tr {
+    display: none;
+}
+
+#pvp tr {
+    display: none;
+}
